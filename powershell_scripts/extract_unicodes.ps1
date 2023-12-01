@@ -1,8 +1,8 @@
 Set-ExecutionPolicy RemoteSigned
 
 # Set the path to the input and output files"
-$inputFilePath = "C:\Users\Slaviboy\Desktop\emoji-test.txt"
-$outputFilePath = "C:\Users\Slaviboy\Desktop\emojis.json"
+$inputFilePath = "C:\Users\Slaviboy\Desktop\EmojisRegex\emoji\15.1\emoji-test.txt"
+$outputFilePath = "C:\Users\Slaviboy\Desktop\EmojisRegex\output\15.1\emojis.txt"
 
 # Read the content of the input file
 $inputContent = Get-Content -Path $inputFilePath

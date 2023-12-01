@@ -2,7 +2,7 @@ Set-ExecutionPolicy RemoteSigned
 
 # Set the path to the input and output files"
 $inputFilePath = "C:\Users\Slaviboy\Desktop\EmojisRegex\emoji\15.1\emoji-test.txt"
-$outputFilePath = "C:\Users\Slaviboy\Desktop\EmojisRegex\output\15.1\emojis.txt"
+$outputFilePath = "C:\Users\Slaviboy\Desktop\EmojisRegex\output\15.1\regex_unicodes.txt"
 
 # Read the content of the input file
 $inputContent = Get-Content -Path $inputFilePath
